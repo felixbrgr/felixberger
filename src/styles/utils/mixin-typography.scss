@@ -1,0 +1,62 @@
+// Gill Sans MT Pro
+@mixin font-gs-medium() {
+  font-family: "GillSansMTPro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font-gs-light() {
+  font-family: "GillSansMTPro-Light", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+// Garamond EB
+@mixin font-ebg() {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+// Usage
+@mixin font-heading() {
+
+  @include font-gs-light;
+  @include rem-font-lock(2.6rem, 10px, $bp-xs, $bp-s);
+
+  line-height: 1.4;
+}
+
+@mixin font-heading-minor() {
+
+  @include font-gs-medium();
+  @include rem-font-lock(2rem, 8px, $bp-xs, $bp-s);
+
+  line-height: 1.4;
+}
+
+@mixin font-copy() {
+
+  @include font-ebg;
+  @include rem-font-lock(1.8rem, 8px, $bp-xs, $bp-s);
+
+  line-height: 1.4;    
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font-small() {
+
+  @include font-ebg;
+  @include rem-font-lock(1.4rem, 8px, $bp-xs, $bp-s);
+
+  line-height: 1.4;    
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font-button() {
+
+  @include font-gs-medium();
+  @include rem-font-lock(1.6rem, 8px, $bp-xs, $bp-s);
+
+  line-height: 1.4;    
+}

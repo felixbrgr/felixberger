@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5%;
+}
+
+// utility classes
+[class*="sr-only"] {
+
+  @include sr-only();
+}

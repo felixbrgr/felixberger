@@ -1,0 +1,46 @@
+/*
+ * css font lock written by @bobbor
+ */
+
+/*
+ * rem based
+ * does respect default font-size specified in html/:root
+ */
+
+@mixin rem-font-lock($baseline-font-rem, $change-px, $min-view-px: 600px, $max-view-px: 1000px) {
+
+  // Strip units for calculation
+
+  $change: strip-unit($change-px);
+  $min-view: strip-unit($min-view-px);
+  $max-view: strip-unit($max-view-px);
+
+  // we reset the min-font to 0
+  // so the real max-font is only the diff between
+  // the passed max-font and min-font
+
+  // $m_font: $max-font - $min-font;
+  $m_font: $change;
+  $m_view: $max-view - $min-view;
+  $m: $m_font / $m_view;
+
+  $n: 0 - $m * $min-view;
+
+  font-size: $baseline-font-rem;
+
+  @media screen and (min-width: #{$min-view}px) {
+    font-size: calc(#{$baseline-font-rem} + #{$m * 100}vw + #{$n}px);
+  }
+
+  @media screen and (min-width: #{$max-view}px) {
+    font-size: calc(#{$baseline-font-rem} + #{$change}px);
+  }
+}
+
+/*
+ * usage
+ */
+
+// rem-lock
+// from 2rem at 320px view to 2rem+24px at 640px view
+// @include rem-font-lock(2, 24, 320, 640);
