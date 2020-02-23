@@ -8,9 +8,9 @@ import TextSection from "../components/text-section"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <PageSection content={{ heading: 'Heading' }} >
+    <PageSection content={{ heading: 'Page section heading' }} >
       <TextSection>
-        <p>Welcome to your new Gatsby site.</p>
+        <p>Text section copy</p>
       </TextSection>
     </PageSection>
   </Layout>
