@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Page options={{ lightOnDark: false, headless: false }} >
-        <Header options={{ fullscreen: true, homeLink: false }} siteTitle={data.site.siteMetadata.title} />    
+      <Page>
+        <Header options={{ homeLink: false }} siteTitle={data.site.siteMetadata.title} />    
         <Main>
           {children}
         </Main>

@@ -1,12 +1,19 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <div>
-      <h1><Link to="/">{siteTitle}</Link></h1>
-    </div>
+const Header = ({ options, siteTitle }) => (
+  <header className="b-header">
+    <h1 className="b-header__heading">
+      {options.homeLink === true && <Link to="/" className="b-header__heading-link">
+          <span className="b-header__heading-title">{siteTitle}</span>
+        </Link>
+      }
+      {options.homeLink === false && <>
+          <span className="b-header__heading-title">{siteTitle}</span>
+        </>
+      }
+    </h1>
   </header>
 )
 
