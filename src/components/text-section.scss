@@ -1,0 +1,73 @@
+.b-text-section {
+
+  @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
+
+  > * {
+    @include spacing(m);
+
+    margin-top: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Generic block level elements
+  p,
+  li,
+  dl {
+
+    @include font-copy();
+    @include hyphens();
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+
+    @include font-heading-minor();
+    @include hyphens();
+  }
+
+  // Lists
+  ul {
+
+    @include interpolate((padding-left), $bp-xs, $bp-s, 15px, 25px);
+
+    list-style-type: none;
+    padding-left: 20px;
+
+    li {
+      position: relative;
+
+      &::before {
+
+        @include interpolate((left), $bp-xs, $bp-s, -15px, -25px);
+        @include interpolate((width, height), $bp-xs, $bp-s, 8px, 12px);
+
+        content: '';
+        position: absolute;
+        top: .5em;
+        display: block;
+        border: 1px solid currentColor;
+        border-radius: 50%;
+
+        @media screen and (min-width: $bp-s) {
+          border-width: 2px;
+        }
+      }
+    }
+  }
+
+  li {
+
+    @include spacing(s);
+
+    margin-top: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

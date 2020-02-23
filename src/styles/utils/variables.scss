@@ -1,16 +1,9 @@
 // colors
 $color-white: #ffffff;
-$color-monarch: #950740;
-$color-fjord: #3b4f64;
-$color-thunder: #231f20;
-
-// transparancy
-$color-fjord--semi-transparent: rgba( $color-fjord, .8 );
-$color-thunder--semi-transparent: rgba( $color-thunder, .8 );
 
 // viewport-width sizes (breakpoints)
 $bp-xs: 320px;
-$bp-s: 640px;
+$bp-s: 485px;
 $bp-m: 768px;
 $bp-l: 1024px;
 
@@ -19,9 +12,9 @@ $vsp-s-min: 5px;
 $vsp-s-max: 10px;
 $vsp-m-min: 15px;
 $vsp-m-max: 30px;
-$vsp-l-min: 30px;
-$vsp-l-max: 60px;
+$vsp-l-min: 45px;
+$vsp-l-max: 90px;
 
 // horizontal inset spacing
 $hsp-min: 15px;
-$hsp-max: 60px;
+$hsp-max: 30px;

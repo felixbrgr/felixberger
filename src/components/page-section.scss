@@ -1,0 +1,31 @@
+.b-page-section {
+
+  @include spacing(l);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  > * {
+    &:not(.b-page-section__heading) {
+
+      @include spacing(l);
+  
+      margin-top: 0;
+  
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__heading {
+
+    @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
+    @include spacing(m);
+    @include font-heading();
+    @include hyphens();
+
+    margin-top: 0;
+  }
+}

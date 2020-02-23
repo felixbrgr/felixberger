@@ -1,0 +1,9 @@
+.b-page {
+
+  @include interpolate((padding-bottom), $bp-xs, $bp-s, $vsp-m-min, $vsp-m-max);
+
+  &--headerless {
+
+    @include interpolate((padding-top), $bp-xs, $bp-s, $vsp-l-min, $vsp-l-max);
+  }
+}

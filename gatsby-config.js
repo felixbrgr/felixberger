@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Felix Berger`,
+    description: `Information on berlin based freelance frontend developer Felix Berger.`,
+    author: `@mimhakkuh`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Felix Berger - Frontend Developer`,
+        short_name: `Felix Berger`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        description: `Information on berlin based freelance frontend developer Felix Berger.`,
+        lang: `en`,
+        display: `standalone`,
+        theme_color_in_head: false, // This will avoid adding theme-color meta tag.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
