@@ -1,23 +1,50 @@
-// Webfonts here ...
+// Gill Sans MT Pro
+@mixin font-sans-serif() {
+  font-family: sans-serif;
+}
+
+// Garamond EB
+@mixin font-serif() {
+  font-family: Georgia, serif;
+}
 
 // Usage
 @mixin font-heading() {
 
-  @include rem-font-lock(2.6rem, 10px, $bp-xs, $bp-s);
+  @include font-sans-serif;
+  @include rem-font-lock(2.6rem, 10px, $bp-xs, $bp-m);
 
   line-height: 1.4;
 }
 
 @mixin font-heading-minor() {
 
-  @include rem-font-lock(2rem, 8px, $bp-xs, $bp-s);
+  @include font-sans-serif();
+  @include rem-font-lock(2rem, 8px, $bp-xs, $bp-m);
 
   line-height: 1.4;
 }
 
 @mixin font-copy() {
 
-  @include rem-font-lock(1.8rem, 8px, $bp-xs, $bp-s);
+  @include font-serif;
+  @include rem-font-lock(1.8rem, 6px, $bp-xs, $bp-m);
+
+  line-height: 1.4;
+}
+
+@mixin font-button() {
+
+  @include font-sans-serif();
+  @include rem-font-lock(1.8rem, 6px, $bp-xs, $bp-m);
 
   line-height: 1.4;    
+}
+
+@mixin font-footer() {
+
+  @include font-sans-serif;
+  @include rem-font-lock(1.2rem, 6px, $bp-xs, $bp-m);
+
+  line-height: 1.4;
 }

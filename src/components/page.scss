@@ -1,4 +1,7 @@
 .b-page {
 
-  @include interpolate((padding-bottom), $bp-xs, $bp-s, $vsp-m-min, $vsp-m-max);
+  @include interpolate((padding-bottom), $bp-xs, $bp-m, $vsp-m-min, $vsp-m-max);
+
+  background: $color-white;
+  color: $color-thunder;
 }

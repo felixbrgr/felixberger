@@ -1,20 +1,38 @@
 // colors
 $color-white: #ffffff;
+$color-fjord: #3b4f64;
+$color-thunder: #231f20;
+
+// transparancies
+$color-white--semi-transparent: rgba( $color-white, .8 );
+$color-fjord--semi-transparent: rgba( $color-fjord, .8 );
+$color-thunder--semi-transparent: rgba( $color-thunder, .8 );
+
+// color mappings
+$color-link: $color-fjord;
 
 // viewport-width sizes (breakpoints)
 $bp-xs: 320px;
-$bp-s: 485px;
+$bp-s: 375px;
 $bp-m: 768px;
 $bp-l: 1024px;
+
+// maximum content width
+$content-max-width: 768px;
 
 // vertical spacings
 $vsp-s-min: 5px;
 $vsp-s-max: 10px;
-$vsp-m-min: 15px;
-$vsp-m-max: 30px;
-$vsp-l-min: 45px;
-$vsp-l-max: 90px;
+$vsp-m-min: 20px;
+$vsp-m-max: 40px;
+$vsp-l-min: 30px;
+$vsp-l-max: 60px;
+$vsp-xl-min: 40px;
+$vsp-xl-max: 80px;
 
 // horizontal inset spacing
 $hsp-min: 15px;
-$hsp-max: 30px;
+$hsp-max: 80px;
+
+// aspect ratio based sizings
+$ratio-gr: 1.618;

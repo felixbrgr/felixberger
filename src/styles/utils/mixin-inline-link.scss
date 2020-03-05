@@ -1,0 +1,10 @@
+@mixin inline-link() {
+  color: $color-link;
+  transition: color .25s ease-in-out; 
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}

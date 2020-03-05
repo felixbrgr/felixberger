@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Location } from '@reach/router'
 
 import Page from "./page"
 import Header from "./header"
@@ -27,13 +28,27 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Page>
-        <Header options={{ homeLink: false }} siteTitle={data.site.siteMetadata.title} />    
-        <Main>
-          {children}
-        </Main>
-        <Footer />
-      </Page>
+      <Location>
+        {({ location }) => {
+          if (location.pathname === '/' ) {
+            return <Page>
+              <Header options={{ homeLink: false }} siteTitle={data.site.siteMetadata.title} />    
+              <Main>
+                {children}
+              </Main>
+              <Footer />
+            </Page>
+          } else {
+            return <Page>
+              <Header options={{ homeLink: true }} siteTitle={data.site.siteMetadata.title} />
+              <Main>
+                {children}
+              </Main>
+              <Footer />
+            </Page>
+          }
+        }}
+      </Location>
     </>
   )
 }

@@ -1,12 +1,15 @@
 @mixin spacing($size) {
   @if $size == 's' {
 
-    @include interpolate((margin-bottom), $bp-xs, $bp-s, $vsp-s-min, $vsp-s-max);
+    @include interpolate((margin-bottom), $bp-xs, $bp-m, $vsp-s-min, $vsp-s-max);
   } @else if $size == 'm' {
 
-    @include interpolate((margin-bottom), $bp-xs, $bp-s, $vsp-m-min, $vsp-m-max);
+    @include interpolate((margin-bottom), $bp-xs, $bp-m, $vsp-m-min, $vsp-m-max);
   } @else if $size == 'l' {
 
-    @include interpolate((margin-bottom), $bp-xs, $bp-s, $vsp-l-min, $vsp-l-max);
+    @include interpolate((margin-bottom), $bp-xs, $bp-m, $vsp-l-min, $vsp-l-max);
+  } @else if $size == 'xl' {
+
+    @include interpolate((margin-bottom), $bp-xs, $bp-m, $vsp-xl-min, $vsp-xl-max);
   }
 }
