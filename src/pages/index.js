@@ -10,12 +10,8 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     <PageSection content={{ heading: 'About' }} >
-      <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>
       <TextSection>
-        <p>Hi!</p>
-        <p>Who am I?</p>
-        <p>What do I offer?</p>
-        <p>Get in touch!</p>
+        <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>
       </TextSection>
     </PageSection>
     <PageSection content={{ heading: 'How do I work' }} >
@@ -46,7 +42,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    markdownRemark(fileAbsolutePath: {regex: "/test.md/"}) {
+    markdownRemark(fileAbsolutePath: {regex: "/about.md/"}) {
       html
     }
   }
