@@ -1,7 +1,9 @@
 import React from "react"
 
-export default ({ children }) => (
+const Main = ({ children }) => (
   <div className="b-main">
     {children}
   </div>
 )
+
+export default Main

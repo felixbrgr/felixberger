@@ -1,7 +1,9 @@
 import React from "react"
 
-export default ({ children }) => (
+const Page = ({ children }) => (
   <div className="b-page">
     {children}
   </div>
 )
+
+export default Page

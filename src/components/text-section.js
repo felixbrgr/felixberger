@@ -1,7 +1,9 @@
 import React from "react"
 
-export default ({ children }) => (
+const TextSection = ({ children }) => (
   <div className="b-text-section">
     {children}
   </div>
 )
+
+export default TextSection
