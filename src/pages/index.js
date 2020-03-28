@@ -31,7 +31,6 @@ const IndexPage = ({data}) => (
     <PageSection content={{ heading: 'Contact again' }} >
       <TextSection>
         <p>Ways to contact me</p>
-        <p>Clients of the past ...</p>
         <p>Identities (twitter, github, linkedin)</p>
       </TextSection>
     </PageSection>
