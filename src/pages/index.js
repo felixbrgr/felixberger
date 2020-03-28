@@ -9,7 +9,7 @@ import TextSection from "../components/text-section"
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <PageSection content={{ heading: 'Page section heading' }} >
+    <PageSection content={{ heading: 'Contact' }} >
       <TextSection>
         <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>
       </TextSection>
@@ -21,7 +21,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    markdownRemark(fileAbsolutePath: {regex: "/test.md/"}) {
+    markdownRemark(fileAbsolutePath: {regex: "/contact.md/"}) {
       html
     }
   }
