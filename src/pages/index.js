@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,7 +10,10 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
     <PageSection content={{ heading: 'About' }} >
       <TextSection>
-        <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>
+        <p>Hi!</p>
+        <p>Who am I?</p>
+        <p>What do I offer?</p>
+        <p>Get in touch!</p>
       </TextSection>
     </PageSection>
     <PageSection content={{ heading: 'How do I work' }} >
@@ -38,11 +40,3 @@ const IndexPage = ({data}) => (
 )
 
 export default IndexPage
-
-export const query = graphql`
-  query {
-    markdownRemark(fileAbsolutePath: {regex: "/about.md/"}) {
-      html
-    }
-  }
-`
