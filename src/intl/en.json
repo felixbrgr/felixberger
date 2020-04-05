@@ -1,0 +1,17 @@
+{
+  "title": "Felix Berger",
+  "description": "Frontend developer Felix Berger from Berlin.",
+  "author": "@mimhakkuh",
+  "aboutHeading": "About",
+  "aboutContent": "<p>Hi!</p><p>Who am I?</p><p>Where can I help?</p><p>Get in touch!</p>",
+  "workHeading": "How do I work",
+  "workContent": "<p>Focus topics!</p><p>What tools do I use?</p><p>Logos!</p>",
+  "expertiseHeading": "Expertise",
+  "expertiseContent": "<p>History</p><p>Clients of the past ...</p><p>Logos!</p>",
+  "contactHeading": "Contact",
+  "contactContent": "<p>Ways to contact me</p><p>Identities (twitter, github, linkedin)</p>",
+  "notfound": {
+    "header": "404: page not found",
+    "description": "This Path does not exist :("
+  }
+}

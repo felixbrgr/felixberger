@@ -1,0 +1,17 @@
+{
+  "title": "Felix Berger",
+  "description": "Frontend-Entwickler Felix Berger aus Berlin.",
+  "author": "@mimhakkuh",
+  "aboutHeading": "Über mich",
+  "aboutContent": "<p>Hallo!</p><p>Wer bin ich?</p><p>Wobei kann ich helfen?</p><p>Kontakt aufnehmen!</p>",
+  "workHeading": "Wie ich arbeite",
+  "workContent": "<p>Fokus-Themen!</p><p>Welche tools verwende ich?</p><p>Logos!</p>",
+  "expertiseHeading": "Expertise",
+  "expertiseContent": "<p>Historie</p><p>Kunden bis jetzt ...</p><p>Logos!</p>",
+  "contactHeading": "Kontakt",
+  "contactContent": "<p>Kontakt aufnehmen via ...</p><p>Kanäle (twitter, github, linkedin)</p>",
+  "notfound": {
+    "header": "404: Seite nicht gefunden",
+    "description": "Dieser Pfad existiert nicht :("
+  }
+}
