@@ -7,11 +7,18 @@
   "workHeading": "How do I work",
   "workContent": "<p>Focus topics!</p><p>What tools do I use?</p><p>Logos!</p>",
   "expertiseHeading": "Expertise",
-  "expertiseContent": "<p>History</p><p>Clients of the past ...</p><p>Logos!</p>",
+  "expertiseContent": "<p>History</p><p>My clients</p><p>Logos!</p>",
   "contactHeading": "Contact",
-  "contactContent": "<p>Ways to contact me</p><p>Identities (twitter, github, linkedin)</p>",
+  "contactContent": "<p>Get in touch via ...</p><p>Identities (twitter, github, linkedin)</p>",
   "notfound": {
-    "header": "404: page not found",
-    "description": "This Path does not exist :("
+    "title": "404: page not found",
+    "description": "This path you've entered does not exist :(",
+    "linkHome": "home"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "description": "Information on contact details, data security and privacy as required by german Telemedia Act section 5.",
+    "imprintHeading": "Imprint",
+    "imprintContent": "<h3>Kontakt</h3><p>Felix Berger brbrbr Leinestr. 1 brbrbr 12049 Berlin brbrbr Deutschland</p><p> link1link1link1 </p><p>Tax number: 16/225/01982</p>"
   }
 }
