@@ -3,22 +3,28 @@
   "description": "Frontend developer Felix Berger from Berlin.",
   "author": "@mimhakkuh",
   "aboutHeading": "About",
-  "aboutContent": "<p>Hi!</p><p>Who am I?</p><p>Where can I help?</p><p>Get in touch!</p>",
+  "aboutContent1": "Hi!",
+  "aboutContent2": "Who am I?</p>",
+  "aboutContent3": "How can I support?",
+  "aboutContent4": "Get in touch!",
   "workHeading": "How do I work",
-  "workContent": "<p>Focus topics!</p><p>What tools do I use?</p><p>Logos!</p>",
+  "workContent1": "Focus topics!",
+  "workContent2": "What tools do I use?",
+  "workContent3": "Logos!",
   "expertiseHeading": "Expertise",
-  "expertiseContent": "<p>History</p><p>My clients</p><p>Logos!</p>",
+  "expertiseContent1": "History",
+  "expertiseContent2": "My clients",
+  "expertiseContent3": "Logos!",
   "contactHeading": "Contact",
-  "contactContent": "<p>Get in touch via ...</p><p>Identities (twitter, github, linkedin)</p>",
+  "contactContent1": "Get in touch via ...",
+  "contactContent2": "Identities (twitter, github, linkedin)",
   "notfound": {
     "title": "404: page not found",
-    "description": "This path you've entered does not exist :(",
+    "description": "The path you've entered does not exist :(",
     "linkHome": "home"
   },
   "imprint": {
     "title": "Imprint",
-    "description": "Information on contact details, data security and privacy as required by german Telemedia Act section 5.",
-    "imprintHeading": "Imprint",
-    "imprintContent": "<h3>Kontakt</h3><p>Felix Berger brbrbr Leinestr. 1 brbrbr 12049 Berlin brbrbr Deutschland</p><p> link1link1link1 </p><p>Tax number: 16/225/01982</p>"
+    "description": "Information on contact details, data security and privacy as required by german Telemedia Act section 5. German language only, sorry about that."
   }
 }

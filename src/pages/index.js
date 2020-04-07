@@ -15,42 +15,54 @@ const IndexPage = ({ intl }) => {
       />
       <PageSection content={{ heading: intl.formatMessage({ id: "aboutHeading" }) }} >
         <TextSection>
-          <FormattedMessage 
-            id="aboutContent" 
-            values={{
-              p: (...chunks) => <p>{chunks}</p>,
-            }}
-          />
+          <p>
+            <FormattedMessage id="aboutContent1" />
+          </p>
+          <p>
+            <FormattedMessage id="aboutContent2" />
+          </p>
+          <p>
+            <FormattedMessage id="aboutContent3" />
+          </p>
+          <p>
+            <FormattedMessage id="aboutContent4" />
+          </p>
         </TextSection>
       </PageSection>
       <PageSection content={{ heading: intl.formatMessage({ id: "workHeading" }) }} >
         <TextSection>
-          <FormattedMessage 
-            id="workContent" 
-            values={{
-              p: (...chunks) => <p>{chunks}</p>,
-            }}
-          />
+          <p>
+            <FormattedMessage id="workContent1" />
+          </p>
+          <p>
+            <FormattedMessage id="workContent2" />
+          </p>
+          <p>
+            <FormattedMessage id="workContent3" />
+          </p>
         </TextSection>
       </PageSection>
       <PageSection content={{ heading: intl.formatMessage({ id: "expertiseHeading" }) }} >
         <TextSection>
-          <FormattedMessage 
-            id="expertiseContent" 
-            values={{
-              p: (...chunks) => <p>{chunks}</p>,
-            }}
-          />
+          <p>
+            <FormattedMessage id="expertiseContent1" />
+          </p>
+          <p>
+            <FormattedMessage id="expertiseContent2" />
+          </p>
+          <p>
+            <FormattedMessage id="expertiseContent3" />
+          </p>
         </TextSection>
       </PageSection>
       <PageSection content={{ heading: intl.formatMessage({ id: "contactHeading" }) }} >
         <TextSection>
-          <FormattedMessage 
-            id="contactContent" 
-            values={{
-              p: (...chunks) => <p>{chunks}</p>,
-            }}
-          />
+          <p>
+            <FormattedMessage id="contactContent1" />
+          </p>
+          <p>
+            <FormattedMessage id="contactContent2" />
+          </p>
         </TextSection>
       </PageSection>
     </Layout>
