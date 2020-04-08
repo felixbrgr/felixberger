@@ -3,6 +3,8 @@
   "description": "Frontend developer Felix Berger from Berlin.",
   "author": "@mimhakkuh",
   "navLinkImprint": "Imprint",
+  "navLinkLangEn": "English",
+  "navLinkLangDe": "German",
   "aboutHeading": "About",
   "aboutContent1": "Hi!",
   "aboutContent2": "Who am I?",
