@@ -1,18 +1,24 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { Location } from '@reach/router'
 
-const Header = ({ options, siteTitle }) => (
+const Header = ({ siteTitle }) => (
   <header className="b-header">
     <h1 className="b-header__heading">
-      {options.homeLink === true && <Link to="/" className="b-header__heading-link">
-          <span className="b-header__heading-title">{siteTitle}</span>
-        </Link>
-      }
-      {options.homeLink === false && <>
-          <span className="b-header__heading-title">{siteTitle}</span>
-        </>
-      }
+
+      <Location>
+        {({ location }) => {
+          if (location.pathname === '/en/' || location.pathname === '/de/' ) {
+            return <span className="b-header__heading-title">{siteTitle}</span>
+          } else {
+            return <Link to="/" className="b-header__heading-link">
+              <span className="b-header__heading-title">{siteTitle}</span>
+            </Link>
+          }
+        }}
+      </Location>
+
     </h1>
   </header>
 )
