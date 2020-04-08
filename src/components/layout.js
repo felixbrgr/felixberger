@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
     <>
       <Location>
         {({ location }) => {
-          if (location.pathname === '/' ) {
+          if (location.pathname === '/en/' || location.pathname === '/de/' ) {
             return <Page>
               <Header options={{ homeLink: false }} siteTitle={data.site.siteMetadata.title} />    
               <Main>

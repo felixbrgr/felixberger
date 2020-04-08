@@ -1,12 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import { injectIntl, Link  } from "gatsby-plugin-intl"
 
-const Footer = () => (
-  <footer className="b-footer">
-    <p className="b-footer__meta">
-      © {new Date().getFullYear()} Berlin, <Link to="/imprint" className="b-footer__meta-link">Imprint</Link>
-    </p>
-  </footer>
-)
+const Footer = ({ intl }) => {
+  return (
+    <footer className="b-footer">
+      <p className="b-footer__meta">
+        © {new Date().getFullYear()} Berlin, <Link to="/imprint/" className="b-footer__meta-link">{intl.formatMessage({ id: "navLinkImprint" })}</Link>
+      </p>
+    </footer>
+  )
+}
 
-export default Footer
+export default injectIntl(Footer)

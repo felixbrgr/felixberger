@@ -2,6 +2,7 @@
   "title": "Felix Berger",
   "description": "Frontend-Entwickler Felix Berger aus Berlin.",
   "author": "@mimhakkuh",
+  "navLinkImprint": "Impressum",
   "aboutHeading": "Über mich",
   "aboutContent1": "Hallo!",
   "aboutContent2": "Wer bin ich?",
@@ -25,6 +26,6 @@
   },
   "imprint": {
     "title": "Impressum",
-    "description": "Informationen zu Kontakt und Datenschutz"
+    "description": "Informationen zu Kontakt und Datenschutz entsprechend § 5, dt. Telemediengesetz."
   }
 }
