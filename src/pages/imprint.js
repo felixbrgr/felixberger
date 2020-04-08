@@ -10,10 +10,11 @@ import TextSection from "../components/text-section"
 const ImprintPage = ({ intl }) => {
   return (  
     <Layout>
-        <SEO
-          title={intl.formatMessage({ id: "imprint.title" })}
-          description={intl.formatMessage({ id: "imprint.description" })}
-        />
+      <SEO
+        lang={intl.locale}
+        title={intl.formatMessage({ id: "imprint.title" })}
+        description={intl.formatMessage({ id: "imprint.description" })}
+      />
 
       <div lang="de">
         <PageSection content={{ heading: 'Impressum' }} >

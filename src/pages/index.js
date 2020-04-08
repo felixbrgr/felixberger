@@ -10,6 +10,7 @@ const IndexPage = ({ intl }) => {
   return (
     <Layout>
       <SEO
+        lang={intl.locale}
         title={intl.formatMessage({ id: "title" })}
         description={intl.formatMessage({ id: "description" })}
       />
