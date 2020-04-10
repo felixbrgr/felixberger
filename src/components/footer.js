@@ -1,22 +1,19 @@
 import React from "react"
-import { injectIntl, Link  } from "gatsby-plugin-intl"
 
-import NavLanguage from "../components/nav-language"
+import NavLinkLanguage from "./nav-link-language"
+import NavLinkImprint from "./nav-link-imprint"
 
-const Footer = ({ intl }) => {
+const Footer = () => {
+
   return (
     <footer className="b-footer">
       <p className="b-footer__meta">
-        © {new Date().getFullYear()} Berlin, <Link to="/imprint/" className="b-footer__meta-link">{intl.formatMessage({ id: "navLinkImprint" })}</Link>
-        
+        © {new Date().getFullYear()} Berlin, <NavLinkImprint />
       </p>
-      <NavLanguage />
-      {/* <div>
-        {intl.locale === 'de' && <Link to="/en/" className="b-footer__meta-link">{intl.formatMessage({ id: "navLinkLangEn" })}</Link>}
-        {intl.locale === 'en' && <Link to="/de/" className="b-footer__meta-link">{intl.formatMessage({ id: "navLinkLangDe" })}</Link>}
-      </div> */}
+
+      <NavLinkLanguage />
     </footer>
   )
 }
 
-export default injectIntl(Footer)
+export default Footer
