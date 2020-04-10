@@ -1,7 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Location } from '@reach/router'
+import { Location } from "@reach/router"
 import { injectIntl, Link  } from "gatsby-plugin-intl"
+
+import { formatPath } from "../helpers"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -10,9 +12,7 @@ const Header = ({ siteTitle }) => {
 
         <Location>
           {({ location }) => {
-            const deslashedPathname = location.pathname.replace(/\/$/, '');
-            const deslashedPathend = (deslashedPathname.length > 3) ? deslashedPathname.substr(deslashedPathname.lastIndexOf('/') + 1) : '/';
-            const asOriginalPath = (deslashedPathend.length > 1) ? '/' + deslashedPathend + '/' : '/';
+            const asOriginalPath = formatPath(location.pathname);
 
             return <>
               {asOriginalPath === '/' && <span className="b-header__heading-title">{siteTitle}</span>}
