@@ -8,9 +8,7 @@ const NavLinkLanguage = ({ intl }) => {
     <Location>
       {({ location }) => {      
         const deslashedPathname = location.pathname.replace(/\/$/, '');
-        
         const deslashedPathend = (deslashedPathname.length > 3) ? deslashedPathname.substr(deslashedPathname.lastIndexOf('/') + 1) : '/';
-
         const asOriginalPath = (deslashedPathend.length > 1) ? '/' + deslashedPathend + '/' : '/';
 
         return <>

@@ -7,14 +7,14 @@ const NavLinkImprint = ({ intl }) => {
   return (
     <Location>
       {({ location }) => {
-        if (location.pathname === '/en/imprint/' || location.pathname === '/de/imprint/' ) {
-          return <span>{intl.formatMessage({ id: "navLinkImprint" })}</span>
-          
-        } else {
-          return <Link to="/imprint">
-          <span>{intl.formatMessage({ id: "navLinkImprint" })}</span>
-        </Link>
-        }
+        const deslashedPathname = location.pathname.replace(/\/$/, '');
+        const deslashedPathend = (deslashedPathname.length > 3) ? deslashedPathname.substr(deslashedPathname.lastIndexOf('/') + 1) : '/';
+        const asOriginalPath = (deslashedPathend.length > 1) ? '/' + deslashedPathend + '/' : '/';
+
+        return <>
+          {asOriginalPath === '/imprint/' && <span>{intl.formatMessage({ id: "navLinkImprint" })}</span>}
+          {asOriginalPath !== '/imprint/' && <Link to="/imprint"><span>{intl.formatMessage({ id: "navLinkImprint" })}</span></Link>}
+        </>
       }}
     </Location>
   )

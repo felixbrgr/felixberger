@@ -10,13 +10,15 @@ const Header = ({ siteTitle }) => {
 
         <Location>
           {({ location }) => {
-            if (location.pathname === '/en/' || location.pathname === '/de/' ) {
-              return <span className="b-header__heading-title">{siteTitle}</span>
-            } else {
-              return <Link to="/" className="b-header__heading-link">
-                <span className="b-header__heading-title">{siteTitle}</span>
-              </Link>
-            }
+            const deslashedPathname = location.pathname.replace(/\/$/, '');
+            const deslashedPathend = (deslashedPathname.length > 3) ? deslashedPathname.substr(deslashedPathname.lastIndexOf('/') + 1) : '/';
+            const asOriginalPath = (deslashedPathend.length > 1) ? '/' + deslashedPathend + '/' : '/';
+
+            console.log(asOriginalPath);
+            return <>
+              {asOriginalPath === '/' && <span className="b-header__heading-title">{siteTitle}</span>}
+              {asOriginalPath !== '/' && <Link to="/" className="b-header__heading-link"><span className="b-header__heading-title">{siteTitle}</span></Link>}
+            </>
           }}
         </Location>
 
