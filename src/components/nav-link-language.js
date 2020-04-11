@@ -1,7 +1,6 @@
 import React from "react"
 import { Location } from "@reach/router"
 import { injectIntl, Link  } from "gatsby-plugin-intl"
-
 import { formatPath } from "../helpers"
 
 const NavLinkLanguage = ({ intl }) => {

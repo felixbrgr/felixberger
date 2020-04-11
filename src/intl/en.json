@@ -2,6 +2,7 @@
   "title": "Felix Berger",
   "description": "Frontend developer Felix Berger from Berlin.",
   "author": "@mimhakkuh",
+  "a11yLinkLabel": "You are here: ",
   "navLinkImprint": "Imprint",
   "navLinkLangEn": "English",
   "navLinkLangDe": "German",
