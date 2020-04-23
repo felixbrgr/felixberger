@@ -3,13 +3,23 @@ $color-white: #ffffff;
 $color-fjord: #3b4f64;
 $color-thunder: #231f20;
 
-// transparancies
-$color-white--semi-transparent: rgba( $color-white, .8 );
-$color-fjord--semi-transparent: rgba( $color-fjord, .8 );
-$color-thunder--semi-transparent: rgba( $color-thunder, .8 );
+// color mapping & scheme targeting
+:root {
+  --color-background: #{$color-white}, ;
+  --color-text: #{$color-thunder};
+  --color-link: #{$color-fjord};
+}
 
-// color mappings
-$color-link: $color-fjord;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #{$color-thunder};
+    --color-text: #{$color-white};
+  }
+}
+
+$color-background: var(--color-background, #{$color-white});
+$color-text: var(--color-text, #{$color-thunder});
+$color-link: var(--color-link, #{$color-fjord});
 
 // viewport-width sizes (breakpoints)
 $bp-xs: 320px;
