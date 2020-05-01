@@ -7,6 +7,8 @@ import PageSection from "../components/page-section"
 import ContentSection from "../components/content-section"
 import TextSection from "../components/text-section"
 
+import SvgTest from "../images/test-300x300.svg"
+
 const IndexPage = ({ intl }) => {
   return (
     <Layout>
@@ -42,6 +44,7 @@ const IndexPage = ({ intl }) => {
             <p>
               <FormattedMessage id="workContent2" />
             </p>
+            <img src={SvgTest} />
             <p>
               <FormattedMessage id="workContent3" />
             </p>
