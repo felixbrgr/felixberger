@@ -1,7 +1,4 @@
 .b-text-section {
-
-  @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
-
   > * {
     @include spacing(m);
 

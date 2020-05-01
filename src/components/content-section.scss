@@ -1,0 +1,11 @@
+.b-content-section {
+
+  @include spacing(l);
+  @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
+  
+  margin-top: 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import PageSection from "../components/page-section"
+import ContentSection from "../components/content-section"
 import TextSection from "../components/text-section"
 
 const NotFoundPage = ({ intl }) => {
@@ -17,12 +18,14 @@ const NotFoundPage = ({ intl }) => {
       />
 
       <PageSection content={{ heading: intl.formatMessage({ id: "notfound.title" }) }} >
-        <TextSection>
-          <p>
-            <FormattedMessage id="notfound.description" />
-            ... <Link to="/">home</Link>!
-          </p>
-        </TextSection>
+        <ContentSection>
+          <TextSection>
+            <p>
+              <FormattedMessage id="notfound.description" />
+              ... <Link to="/">home</Link>!
+            </p>
+          </TextSection>
+        </ContentSection>
       </PageSection>
     </Layout>
   )

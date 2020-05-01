@@ -1,22 +1,9 @@
 .b-page-section {
 
-  @include spacing(l);
+  @include spacing(xl);
 
   &:last-child {
     margin-bottom: 0;
-  }
-
-  > * {
-    &:not(.b-page-section__heading) {
-
-      @include spacing(l);
-  
-      margin-top: 0;
-  
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
   }
 
   &__heading {
