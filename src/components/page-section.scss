@@ -8,7 +8,7 @@
 
   &__heading {
 
-    @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
+    @include interpolate((padding-left, padding-right), $bp-xs, $bp-m, $hsp-min, $hsp-max);
     @include spacing(m);
     @include font-heading();
     @include hyphens();

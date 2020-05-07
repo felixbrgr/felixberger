@@ -1,7 +1,7 @@
 .b-content-section {
 
   @include spacing(l);
-  @include interpolate((padding-left, padding-right), $bp-xs, $bp-s, $hsp-min, $hsp-max);
+  @include interpolate((padding-left, padding-right), $bp-xs, $bp-m, $hsp-min, $hsp-max);
   
   margin-top: 0;
 

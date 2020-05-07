@@ -1,50 +1,30 @@
-// Gill Sans MT Pro
+// Sans-serif
 @mixin font-sans-serif() {
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
-// Garamond EB
+// Serif
 @mixin font-serif() {
   font-family: Georgia, serif;
+  line-height: 1.4;
 }
 
-// Usage
+// Mapping
 @mixin font-heading() {
 
   @include font-sans-serif;
-  @include rem-font-lock(2.6rem, 10px, $bp-xs, $bp-m);
-
-  line-height: 1.4;
+  @include rem-font-lock(2.6rem, 10px, $bp-xs, $bp-m);  
 }
 
 @mixin font-heading-minor() {
 
   @include font-sans-serif();
   @include rem-font-lock(2rem, 8px, $bp-xs, $bp-m);
-
-  line-height: 1.4;
 }
 
 @mixin font-copy() {
 
   @include font-serif;
   @include rem-font-lock(1.8rem, 6px, $bp-xs, $bp-m);
-
-  line-height: 1.4;
-}
-
-@mixin font-button() {
-
-  @include font-sans-serif();
-  @include rem-font-lock(1.8rem, 6px, $bp-xs, $bp-m);
-
-  line-height: 1.4;    
-}
-
-@mixin font-footer() {
-
-  @include font-sans-serif;
-  @include rem-font-lock(1.2rem, 6px, $bp-xs, $bp-m);
-
-  line-height: 1.4;
 }
