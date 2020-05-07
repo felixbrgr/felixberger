@@ -6,8 +6,7 @@ import SEO from "../components/seo"
 import PageSection from "../components/page-section"
 import ContentSection from "../components/content-section"
 import TextSection from "../components/text-section"
-
-import SvgTest from "../svg/_test-300x300.svg"
+import ClientsList from "../components/clients-list"
 
 const IndexPage = ({ intl }) => {
   return (
@@ -59,11 +58,11 @@ const IndexPage = ({ intl }) => {
             <p>
               <FormattedMessage id="expertiseContent2" />
             </p>
-            <SvgTest />
             <p>
               <FormattedMessage id="expertiseContent3" />
             </p>
           </TextSection>
+          <ClientsList />
         </ContentSection>
       </PageSection>
       <PageSection content={{ heading: intl.formatMessage({ id: "contactHeading" }) }} >

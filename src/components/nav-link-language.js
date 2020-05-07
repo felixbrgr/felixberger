@@ -4,7 +4,6 @@ import { injectIntl, Link  } from "gatsby-plugin-intl"
 import { formatPath } from "../helpers"
 
 const NavLinkLanguage = ({ intl }) => {
-
   return (
     <Location>
       {({ location }) => {      

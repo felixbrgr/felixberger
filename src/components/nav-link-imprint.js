@@ -6,7 +6,6 @@ import { formatPath } from "../helpers"
 import A11yLinkLabel from "./a11y-link-label"
 
 const NavLinkImprint = ({ intl }) => {
-
   return (
     <Location>
       {({ location }) => {
