@@ -1,4 +1,10 @@
 .b-clients-list {
   list-style: none;
   padding: 0;
+
+  &--item {
+    svg {
+      max-width: 100%;
+    }
+  }
 }

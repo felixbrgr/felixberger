@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 66" role="img" aria-labelledby="logo-cna-title">
+	<title id="logo-cna-title">Channel News Asia logo</title>
+	<defs>
+		<path id="prefix__a" d="M40.698 48.807v16.075h4.358V51.078c.503-.325 1.592-.487 2.346-.487 2.431 0 2.933 1.297 2.933 3.492v10.72h4.441V53.678c0-.893-.083-1.704-.252-2.519-.309-1.188-.881-2.245-1.929-3.005-.923-.566-2.346-.975-4.273-.975-2.763.001-5.697.571-7.624 1.628"/>
+	</defs>
+	<clipPath id="prefix__b">
+		<use xlink:href="#prefix__a" overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#prefix__b)" fill="currentColor" d="M40.698 47.18h14.079v17.702H40.698z"/>
+	<defs>
+		<path id="prefix__d" d="M61.868 59.371c0-1.785.671-2.354 2.178-2.681 1.258-.323 2.322-.323 3.661-.405v4.952c-1.005.407-1.817.488-2.824.488-1.926.001-3.015-.488-3.015-2.354m-3.381-11.316l.018 3.446c1.881-.62 3.84-.901 5.936-.901 2.347 0 3.269.895 3.269 2.924-2.012.081-3.41.081-5.255.405-3.52.488-4.861 2.438-4.861 5.522 0 3.736 2.471 5.663 6.788 5.684 3.184 0 5.673-.567 7.602-1.624V52.792c0-4.547-3.271-5.602-7.208-5.602-2.599 0-4.605.388-6.289.865"/>
+	</defs>
+	<clipPath id="prefix__e">
+		<use xlink:href="#prefix__d" overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#prefix__e)" fill="currentColor" d="M57.595 47.19h14.39v17.944h-14.39z"/>
+	<g>
+		<defs>
+			<path id="prefix__g" d="M23.809 55.943c0 4.709.922 9.175 6.872 9.175 2.347 0 5.166-.46 6.673-.864l-.005-3.718c-1.089.242-3.093.713-4.183.713-4.442 0-4.833-1.489-4.833-5.388 0-4.14.728-5.251 4.833-5.145 1.366.034 2.303.209 4.162.758l.024-3.518c-1.256-.324-3.656-.864-5.667-.864-6.534.001-7.876 3.167-7.876 8.851"/>
+		</defs>
+		<clipPath id="prefix__h">
+			<use xlink:href="#prefix__g" overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#prefix__h)" fill="currentColor" d="M23.809 47.093h13.545v18.025H23.809z"/>
+	</g>
+	<path fill="currentColor" d="M67.279 32.047l4.88 11.44H40.523z"/>
+	<g fill="currentColor">
+		<defs>
+			<path id="prefix__j" d="M42.184.865L23.791 43.479h11.634L53.817.865z"/>
+		</defs>
+		<clipPath id="prefix__k">
+			<use xlink:href="#prefix__j" overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#prefix__k)" fill="currentColor)" d="M23.791.865h30.027v42.614H23.791z"/>
+	</g>
+	<g>
+		<defs>
+			<path id="prefix__m" d="M42.184.865l18.391 42.614H72.21L53.817.865z"/>
+		</defs>
+		<clipPath id="prefix__n">
+			<use xlink:href="#prefix__m" overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#prefix__n)" fill="currentColor" d="M57.196-14.148l36.32 36.319-36.32 36.321-36.32-36.321z"/>
+	</g>
+</svg>
