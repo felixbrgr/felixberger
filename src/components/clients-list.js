@@ -40,10 +40,6 @@ const ClientsList = ({ intl }) => {
           {intl.locale === 'en' && <SvgLogoBshEn />}
         </li>
         <li className="b-clients-list--item">
-          {intl.locale === 'de' && <SvgLogoBundesregierungDe />}
-          {intl.locale === 'en' && <SvgLogoBundesregierungEn />}
-        </li>
-        <li className="b-clients-list--item">
           {intl.locale === 'de' && <SvgLogoCnaDe />}
           {intl.locale === 'en' && <SvgLogoCnaEn />}
         </li>
