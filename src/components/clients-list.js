@@ -11,8 +11,6 @@ import SvgLogoBmvgDe from "../svg/logo-bmvg-de.svg"
 import SvgLogoBmvgEn from "../svg/logo-bmvg-en.svg"
 import SvgLogoBshDe from "../svg/logo-bsh-de.svg"
 import SvgLogoBshEn from "../svg/logo-bsh-en.svg"
-import SvgLogoBundesregierungDe from "../svg/logo-bundesregierung-de.svg"
-import SvgLogoBundesregierungEn from "../svg/logo-bundesregierung-en.svg"
 import SvgLogoCnaDe from "../svg/logo-cna-de.svg"
 import SvgLogoCnaEn from "../svg/logo-cna-en.svg"
 
