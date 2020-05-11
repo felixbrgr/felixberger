@@ -13,66 +13,63 @@ const IndexPage = ({ intl }) => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "title" })}
-        description={intl.formatMessage({ id: "description" })}
+        title={intl.formatMessage({ id: "index.title" })}
+        description={intl.formatMessage({ id: "index.description" })}
       />
-      <PageSection content={{ heading: intl.formatMessage({ id: "aboutHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.aboutHeading" }) }} >
         <ContentSection>
           <TextSection>
             <p>
-              <FormattedMessage id="aboutContent1" />
+              <FormattedMessage id="index.aboutContent1" />
             </p>
             <p>
-              <FormattedMessage id="aboutContent2" />
+              <FormattedMessage id="index.aboutContent2" />
             </p>
             <p>
-              <FormattedMessage id="aboutContent3" />
-            </p>
-            <p>
-              <FormattedMessage id="aboutContent4" />
+              <FormattedMessage id="index.aboutContent3" />
             </p>
           </TextSection>
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "workHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.skillsHeading" }) }} >
         <ContentSection>
           <TextSection>
             <p>
-              <FormattedMessage id="workContent1" />
+              <FormattedMessage id="index.skillsContent1" />
             </p>
             <p>
-              <FormattedMessage id="workContent2" />
+              <FormattedMessage id="index.skillsContent2" />
             </p>
             <p>
-              <FormattedMessage id="workContent3" />
+              <FormattedMessage id="index.skillsContent3" />
             </p>
           </TextSection>
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "expertiseHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.referenceHeading" }) }} >
         <ContentSection>
           <TextSection>
             <p>
-              <FormattedMessage id="expertiseContent1" />
+              <FormattedMessage id="index.referenceContent1" />
             </p>
             <p>
-              <FormattedMessage id="expertiseContent2" />
+              <FormattedMessage id="index.referenceContent2" />
             </p>
             <p>
-              <FormattedMessage id="expertiseContent3" />
+              <FormattedMessage id="index.referenceContent3" />
             </p>
           </TextSection>
           <ClientsList />
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "contactHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.contactHeading" }) }} >
         <ContentSection>
           <TextSection>
             <p>
-              <FormattedMessage id="contactContent1" />
+              <FormattedMessage id="index.contactContent1" />
             </p>
             <p>
-              <FormattedMessage id="contactContent2" />
+              <FormattedMessage id="index.contactContent2" />
             </p>
           </TextSection>
         </ContentSection>
