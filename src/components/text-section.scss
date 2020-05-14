@@ -27,6 +27,11 @@
     @include hyphens();
   }
 
+  // Links
+  a {
+    color: $color-link
+  }
+
   // Lists
   ul {
 

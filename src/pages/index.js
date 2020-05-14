@@ -25,9 +25,9 @@ const IndexPage = ({ intl }) => {
             <p>
               <FormattedMessage id="index.aboutContent2" />
             </p>
-            <p>
+            <a href="mailto:mail@felixberger.dev">
               <FormattedMessage id="index.aboutContent3" />
-            </p>
+            </a>
           </TextSection>
         </ContentSection>
       </PageSection>
@@ -55,9 +55,6 @@ const IndexPage = ({ intl }) => {
             <p>
               <FormattedMessage id="index.referenceContent2" />
             </p>
-            <p>
-              <FormattedMessage id="index.referenceContent3" />
-            </p>
           </TextSection>
           <ClientsList />
         </ContentSection>
@@ -66,11 +63,18 @@ const IndexPage = ({ intl }) => {
         <ContentSection>
           <TextSection>
             <p>
-              <FormattedMessage id="index.contactContent1" />
+              Felix Berger <br />
+              Leinestr. 1  <br />
+              12049 Berlin
             </p>
-            <p>
-              <FormattedMessage id="index.contactContent2" />
-            </p>
+            <p>www.felixberger.dev</p>
+            <p>mail@felixberger.dev</p>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/felix-berger-19551534">LinkedIn</a></li>
+              <li><a href="https://www.xing.com/profile/Felix_Berger3">Xing</a></li>
+              <li><a href="https://github.com/felixbrgr">Github</a></li>
+              <li><a href="https://twitter.com/mimhakkuh">twitter</a></li>
+            </ul>
           </TextSection>
         </ContentSection>
       </PageSection>

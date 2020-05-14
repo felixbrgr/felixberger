@@ -10,18 +10,15 @@
     "aboutHeading": "About",
     "aboutContent1": "Hi! Who am I?",
     "aboutContent2": "How can I support?",
-    "aboutContent3": "Get in touch!",
+    "aboutContent3": "Get in touch",
     "skillsHeading": "Skills",
     "skillsContent1": "How do I work",
-    "skillsContent2": "Focus topics",
+    "skillsContent2": "Topics: Usable, Accessibile, Performant, Maintainable (Inclusive, Responsive, Future friendly)",
     "skillsContent3": "Logos!",
     "referenceHeading": "Reference",
     "referenceContent1": "History",
     "referenceContent2": "My clients",
-    "referenceContent3": "Logos!",
-    "contactHeading": "Contact",
-    "contactContent1": "Get in touch via ...",
-    "contactContent2": "Identities (twitter, github, linkedin)"
+    "contactHeading": "Get in touch"
   },
   "notfound": {
     "title": "404: page not found",

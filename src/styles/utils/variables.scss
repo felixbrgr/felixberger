@@ -1,25 +1,29 @@
 // colors
-$color-white: #ffffff;
-$color-fjord: #3b4f64;
-$color-thunder: #231f20;
+$color-white: #fff;
+$color-black: #000;
+$color-salmon: salmon;
+$color-crimson: crimson;
 
-// color mapping & scheme targeting
+// colors: scheme / css variables
 :root {
   --color-background: #{$color-white}, ;
-  --color-text: #{$color-thunder};
-  --color-link: #{$color-fjord};
+  --color-text: #{$color-black};
+  --color-link: #{$color-crimson};
 }
 
+// colors: scheme / targeting & css variable overrides
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #{$color-thunder};
+    --color-background: #{$color-black};
     --color-text: #{$color-white};
+    --color-link: #{$color-salmon};
   }
 }
 
+// colors: scheme / mappings, fallbacks
 $color-background: var(--color-background, #{$color-white});
-$color-text: var(--color-text, #{$color-thunder});
-$color-link: var(--color-link, #{$color-fjord});
+$color-text: var(--color-text, #{$color-black});
+$color-link: var(--color-link, #{$color-crimson});
 
 // viewport-width sizes (breakpoints)
 $bp-xs: 320px;

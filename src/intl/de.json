@@ -10,18 +10,15 @@
     "aboutHeading": "Über mich",
     "aboutContent1": "Hallo! Wer bin ich?",
     "aboutContent2": "Wobei kann ich unterstützen?",
-    "aboutContent3": "Kontakt aufnehmen!",
+    "aboutContent3": "Kontakt aufnehmen",
     "skillsHeading": "Expertise",
     "skillsContent1": "Wie ich arbeite",
-    "skillsContent2": "Fokus-Themen",
+    "skillsContent2": "Themen: einfach benutzbar, barrierefrei, performant, wartbar (inklusiv, responsiv, zukunftssicher)",
     "skillsContent3": "Logos!",
     "referenceHeading": "Referenz",
     "referenceContent1": "Historie",
     "referenceContent2": "Meine Kunden",
-    "referenceContent3": "Logos!",
-    "contactHeading": "Kontakt",
-    "contactContent1": "Kontakt aufnehmen via ...",
-    "contactContent2": "Kanäle (twitter, github, linkedin)"
+    "contactHeading": "Kontakt aufnehmen"
   },
   "notfound": {
     "title": "404: Seite nicht gefunden",
