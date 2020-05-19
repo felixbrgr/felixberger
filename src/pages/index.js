@@ -16,7 +16,7 @@ const IndexPage = ({ intl }) => {
         title={intl.formatMessage({ id: "index.title" })}
         description={intl.formatMessage({ id: "index.description" })}
       />
-      <PageSection content={{ heading: intl.formatMessage({ id: "index.aboutHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.aboutHeading" }) }} options={{ hiddenHeading: true }} >
         <ContentSection>
           <TextSection>
             <p>
@@ -31,7 +31,7 @@ const IndexPage = ({ intl }) => {
           </TextSection>
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "index.skillsHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.skillsHeading" }) }} options={{ hiddenHeading: false }} >
         <ContentSection>
           <TextSection>
             <p>
@@ -46,7 +46,7 @@ const IndexPage = ({ intl }) => {
           </TextSection>
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "index.referenceHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.referenceHeading" }) }} options={{ hiddenHeading: false }} >
         <ContentSection>
           <TextSection>
             <p>
@@ -59,7 +59,7 @@ const IndexPage = ({ intl }) => {
           <ClientsList />
         </ContentSection>
       </PageSection>
-      <PageSection content={{ heading: intl.formatMessage({ id: "index.contactHeading" }) }} >
+      <PageSection content={{ heading: intl.formatMessage({ id: "index.contactHeading" }) }} options={{ hiddenHeading: false }} >
         <ContentSection>
           <TextSection>
             <p>
