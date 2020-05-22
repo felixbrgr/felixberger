@@ -12,8 +12,8 @@
     "aboutContent2": "I build inclusive, easy to use and engaging products for the web and I offer 10 years of experience in frontend development.",
     "aboutContent3": "Get in touch",
     "skillsHeading": "Skills",
-    "skillsContent1": "As a former Information Architect, I have the ability to bridge the gap between design and implementation. I place high emphasis on building meaningful structure, ",
-    "skillsContent2": "...",
+    "skillsContent1": "As a former information architect, I have the ability to bridge the gap between design and implementation. I build meaningful maintainable structures and interfaces that are both accessible and appealing.",
+    "skillsContent2": "As a frontend developer with a decade of experience working on large scale frontends, I can support your project with clean, modern and framework agnostic code, knowledge of browsers and performance issues, the incorporation progressive enhancement and my ability to write specification.",
     "skillsContent3": "Logos: Performance, Accessibility, Design System / Architektur, Responsive",
     "referenceHeading": "Reference",
     "referenceContent1": "History",
@@ -30,4 +30,3 @@
     "description": "Information on contact details, data security and privacy as required by german Telemedia Act section 5. German language only, sorry about that."
   }
 }
-// Topics: modern, accessible, responsive, performant, maintainable, future friendly
