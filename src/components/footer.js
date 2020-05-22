@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="b-footer">
       <p className="b-footer__meta">
-        © {new Date().getFullYear()} Berlin, <NavLinkImprint />
+        © {new Date().getFullYear()}, No tracking, <NavLinkImprint />
       </p>
 
       <NavLinkLanguage />

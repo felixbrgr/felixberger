@@ -8,13 +8,13 @@
     "title": "Home",
     "description": "Frontend developer Felix Berger from Berlin.",
     "aboutHeading": "About",
-    "aboutContent1": "Hi! Who am I?",
-    "aboutContent2": "How can I support?",
+    "aboutContent1": "Hello, I'm Felix Berger. I'm an independent UI engineer living in Berlin, Germany.",
+    "aboutContent2": "I build inclusive, easy to use and engaging products for the web and I offer 10 years of experience in frontend development.",
     "aboutContent3": "Get in touch",
     "skillsHeading": "Skills",
-    "skillsContent1": "How do I work",
-    "skillsContent2": "Topics: Usable, Accessibile, Performant, Maintainable (Inclusive, Responsive, Future friendly)",
-    "skillsContent3": "Logos!",
+    "skillsContent1": "As a former Information Architect, I have the ability to bridge the gap between design and implementation. I place high emphasis on building meaningful structure, ",
+    "skillsContent2": "...",
+    "skillsContent3": "Logos: Performance, Accessibility, Design System / Architektur, Responsive",
     "referenceHeading": "Reference",
     "referenceContent1": "History",
     "referenceContent2": "My clients",
@@ -30,3 +30,4 @@
     "description": "Information on contact details, data security and privacy as required by german Telemedia Act section 5. German language only, sorry about that."
   }
 }
+// Topics: modern, accessible, responsive, performant, maintainable, future friendly
