@@ -48,14 +48,6 @@ const IndexPage = ({ intl }) => {
       </PageSection>
       <PageSection content={{ heading: intl.formatMessage({ id: "index.referenceHeading" }) }} options={{ hiddenHeading: false }} >
         <ContentSection>
-          <TextSection>
-            <p>
-              <FormattedMessage id="index.referenceContent1" />
-            </p>
-            <p>
-              <FormattedMessage id="index.referenceContent2" />
-            </p>
-          </TextSection>
           <ClientsList />
         </ContentSection>
       </PageSection>
