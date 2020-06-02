@@ -6,16 +6,17 @@
   "navLinkLangDe": "Deutsch",
   "index": {
     "title": "Startseite",
-    "description": "Frontend-Entwickler Felix Berger aus Berlin.",
+    "description": "Frontend UI-Entwickler Felix Berger aus Berlin.",
     "aboutHeading": "Über mich",
-    "aboutContent1": "Hallo! Wer bin ich?",
-    "aboutContent2": "Kontakt aufnehmen",
+    "aboutContent1": "Hallo, ich bin Felix Berger, freischaffender Frontend UI-Entwickler in Berlin.",
+    "aboutContent2": "Ich entwickle inklusive, einfach bedienbare und einnehmende Websites und -apps und biete 10 Jahre Erfahrung der Frontend-Entwicklung an.",
+    "aboutContent3": "Kontakt aufnehmen",
     "skillsHeading": "Expertise",
-    "skillsContent1": "Wie ich arbeite",
-    "skillsContent2": "Themen: einfach benutzbar, barrierefrei, performant, wartbar (inklusiv, responsiv, zukunftssicher)",
-    "skillsContent3": "Logos!",
+    "skillsContent1": "Als Entwickler mit Erfahrung in der Arbeit mit großen Webprojekten unterstütze ich Projekte mit performantem und modernem Code. Ich priorisiere Methoden und Technologien nach Bedarf eines Projekts und arbeite gerne mit Vanilla- und Framework-Code. Um digitale Erlebnisse für breite Nutzerschichten zugänglich zu machen, nutze ich progressive-enhancement-Techniken und meine Erfahrung aus über 6 Jahren barrierefreier Webentwicklung.",
+    "skillsContent2": "...",
+    "skillsContent3": "...",
     "referenceHeading": "Referenz",
-    "contactHeading": "Kontakt aufnehmen"
+    "contactHeading": "..."
   },
   "notfound": {
     "title": "404: Seite nicht gefunden",

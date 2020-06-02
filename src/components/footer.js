@@ -1,6 +1,6 @@
 import React from "react"
 
-import NavLinkLanguage from "./nav-link-language"
+import NavLanguage from "./nav-language"
 import NavLinkImprint from "./nav-link-imprint"
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
         © {new Date().getFullYear()}, No tracking, <NavLinkImprint />
       </p>
 
-      <NavLinkLanguage />
+      <NavLanguage />
     </footer>
   )
 }
