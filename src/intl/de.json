@@ -9,14 +9,14 @@
     "description": "Frontend UI-Entwickler Felix Berger aus Berlin.",
     "aboutHeading": "Über mich",
     "aboutContent1": "Hallo, ich bin Felix Berger, freischaffender Frontend UI-Entwickler in Berlin.",
-    "aboutContent2": "Ich entwickle inklusive, einfach bedienbare und einnehmende Websites und -apps und biete 10 Jahre Erfahrung der Frontend-Entwicklung an.",
+    "aboutContent2": "Ich erschaffe mit der Hilfe von über 10 Jahren Erfahrung inklusive und einfach bedienbare Webanwendungen.",
     "aboutContent3": "Kontakt aufnehmen",
     "skillsHeading": "Expertise",
-    "skillsContent1": "Als Entwickler mit Erfahrung in der Arbeit mit großen Webprojekten unterstütze ich Projekte mit performantem und modernem Code. Ich priorisiere Methoden und Technologien nach Bedarf eines Projekts und arbeite gerne mit Vanilla- und Framework-Code. Um digitale Erlebnisse für breite Nutzerschichten zugänglich zu machen, nutze ich progressive-enhancement-Techniken und meine Erfahrung aus über 6 Jahren barrierefreier Webentwicklung.",
-    "skillsContent2": "...",
-    "skillsContent3": "...",
-    "referenceHeading": "Referenz",
-    "contactHeading": "..."
+    "skillsContent1": "Als Entwickler mit Erfahrung in der Arbeit mit großen und komplexen Frontends unterstütze ich Web-Projekte mit performantem und modernem Code. Ich wähle Methoden und Technologien entsperechend dem Bedarf eines Projekts und arbeite gerne sowohl mit Vanilla- als auch Framework-Code. Um digitale Erlebnisse für breite Nutzerschichten zugänglich zu machen, setze ich progressive-enhancement-Techniken und meine Erfahrung aus über 6 Jahren barrierefreier Webentwicklung ein.",
+    "skillsContent2": "Durch meine Erfahrungen in UX Design und Informationsarchitektur verbinde ich das Verständnis von Design und Technik. Auf diese Weise entwickle ich skalierbare, semantische Architekturen und Interfaces die zugänglich und attraktiv sind.",
+    "skillsContent3": "Logos: Architektur, Barrierefreiheit, Responsiv, Performant",
+    "referenceHeading": "Kunden",
+    "contactHeading": "Kontakt aufnehmen"
   },
   "notfound": {
     "title": "404: Seite nicht gefunden",
