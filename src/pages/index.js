@@ -7,6 +7,7 @@ import PageSection from "../components/page-section"
 import ContentSection from "../components/content-section"
 import TextSection from "../components/text-section"
 import ClientsList from "../components/clients-list"
+import Portrait from "../components/portrait"
 
 const IndexPage = ({ intl }) => {
   return (
@@ -18,6 +19,7 @@ const IndexPage = ({ intl }) => {
       />
       <PageSection content={{ heading: intl.formatMessage({ id: "index.aboutHeading" }) }} options={{ hiddenHeading: true }} >
         <ContentSection>
+          <Portrait />
           <TextSection>
             <p>
               <FormattedMessage id="index.aboutContent1" />
